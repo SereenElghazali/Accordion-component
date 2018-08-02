@@ -1,0 +1,11 @@
+.accordion-item{
+    
+    
+    margin: 15px;
+    
+}
+.title{
+    background-color: rgb(43, 183, 226);
+    padding: 1px 10px;
+    color: white;
+}

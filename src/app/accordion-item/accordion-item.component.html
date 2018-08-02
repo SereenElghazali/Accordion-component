@@ -1,0 +1,11 @@
+<div class="accordion-item">
+  <div class="title" (click)="close()"  >
+      <ng-content select=".title"></ng-content>
+  </div>
+  <div class="body" *ngIf="isOpened">
+      <ng-content select=".description"></ng-content>
+  </div>
+ 
+</div>
+  
+
